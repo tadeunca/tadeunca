@@ -1,0 +1,1 @@
+sudo bundle exec rake migracao:nome_migracao RAILS_ENV=production  &> /tmp/nome_migracao & 
