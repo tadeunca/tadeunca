@@ -1,0 +1,13 @@
+sudo apt-get install mysql-server mysql-client
+sudo apt-get install libmysql-ruby libmysqlclient15-dev
+ 
+sudo apt-get install apache2 apache2-threaded-dev
+ 
+sudo apt-get install ruby1.9.3
+sudo apt-get install build-essential
+ 
+#Pacotes necessários para o Passenger
+sudo apt-get install libcurl4-openssl-dev libssl-dev zlib1g-dev apache2-threaded-dev libapr1-dev libaprutil1-dev
+ 
+sudo gem install passenger
+sudo passenger-install-apache2-module
